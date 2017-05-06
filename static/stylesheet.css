@@ -1,0 +1,74 @@
+body {
+    position: relative;
+    font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+   }
+
+h2 {
+	color: black;
+}
+
+  .window {
+  	width: 585px;
+  	height: 1805px;
+  	background: #A0B9BB;
+  	position: absolute;
+  }
+
+  .textarea {
+  	margin:1px;
+  }
+
+p {
+	margin: 17px;
+	line-height: 1.1em;
+}
+
+.formarea {
+	position: absolute;
+	margin: 35px;
+}
+
+div#title {
+	color: black;
+	margin-bottom: 7px;
+	position: relative;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 13px;
+	
+}
+
+label#sub {
+	color: #886E58;
+	font-size:.9em;
+	margin-bottom: 15px;
+	position: relative;
+
+}
+input#add {
+	width: 487px;
+}
+
+input#ed {
+	width: 487px;
+	height: 136px;
+}
+
+div.error {
+	color: red;
+	font-size: 22:;
+}
+
+div#pay {
+	font-size: 15px;
+	border-style: solid;
+	padding: 10px;
+	border-color: #D1B579;
+	border-width: 15px;
+	background: #D1b579;
+	color: black;
+	font-weight: bold;
+
+}

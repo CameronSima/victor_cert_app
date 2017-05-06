@@ -1,0 +1,17 @@
+../pyPdf/pdf.py
+../pyPdf/utils.py
+../pyPdf/__init__.py
+../pyPdf/filters.py
+../pyPdf/generic.py
+../pyPdf/xmp.py
+../pyPdf/pdf.pyc
+../pyPdf/utils.pyc
+../pyPdf/__init__.pyc
+../pyPdf/filters.pyc
+../pyPdf/generic.pyc
+../pyPdf/xmp.pyc
+./
+PKG-INFO
+top_level.txt
+dependency_links.txt
+SOURCES.txt

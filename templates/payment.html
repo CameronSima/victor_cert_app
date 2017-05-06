@@ -1,0 +1,118 @@
+{% block content %}
+
+<head>
+		<link type="text/css" rel="stylesheet" href="/static/stylesheet.css" />
+		
+	</head>
+<div class="window">
+	<div class'textarea'>
+	<div class="error">{{error}}</div>
+	<p>The Contemporary Priestess Statement of Application</p>
+<p>American Priestess' ordained priestesses are sanctioned by the state of California to hold the professional title as religious clergy, and thus may assume all associated government rights and benefits, and legally perform many services such as:</p>
+<p>  _ Officiate marriages </p>
+<p>_ Perform intuitive/psychic readings and spiritual counseling</p>
+<p>_ Perform intuitive/psychic/spiritual healings</p>
+ 
+<p>This license is valid for performing weddings throughout the United States.</p>
+ 
+<p>Certified and licensed priestesses perform many other services such as:</p>
+<p>_ Officiate unions (commitment ceremonies, hand-fastings, etc.) </p>
+<p>_ Officiate divorce ceremonies </p>
+<p>_ Provide Spiritual Midwifery services during a soul’s transition through times of birth, blood rites, loss, hospice and more <p>
+<p>_ Perform Personal and Public Ritual Ceremonies: Goddess Worship Services, Rituals of Earth Reverence, Weddings, Handfastings, Unions, Birth, Menses, Divorce, Funerals, Seasonal Celebrations, and more</p>
+<p>_ Produce programs intended to be spiritually uplifting for the community —adults, teens and children</p>
+ </div>
+<div class="formarea">
+<form method="post">
+		<h2>American Priestess Application</h2>
+	<label id="sub">
+		To obtain an American Priestess License, please fill out the following application.
+		After filling out the form, please pay the $40.00 fee with the PayPal button below. After you have paid, your digital Certificate of License will prompt you to download it immediately. 
+	</label>
+	<label>
+		<div id="title">Your name as it will appear on the certificate *</div>
+		<input type="text" name="name" value="{{name}}">
+	</label>
+
+	<label>
+		<div id="title">Any title, additional to that of Priestess (Optional)</div>
+		<input type="text" name="title" value="{{title}}">
+	</label>
+
+	<label>
+		<div id="title">Address</div>
+		<input id="add" type="text" name="address" value="{{address}}">
+	</label>
+
+		<label>
+		<div id="title">Address line 2</div>
+		<input id="add" type="text" name="address2" value="{{address2}}">
+	</label>
+
+	<label>
+		<div id="title">City</div>
+		<input type="text" name="city" value="{{city}}">
+	</label>
+
+	<label>
+		<div position="inline"; id="title">State / Province / Region</div>
+		<input type="text" name="state" value="{{state}}">
+	</label>
+
+		<label>
+		<div id="title">Postal / Zip Code</div>
+		<input type="text" name="zipcode" value="{{zipcode}}">
+	</label>
+
+		<label>
+		<div id="title">Email *</div>
+		<input type="text" name="email" value="{{email}}">
+	</label>
+
+		<label>
+		<div id="title">Phone Number</div>
+		<input type="text" name="phone" value="{{phone}}">
+	</label>
+
+	<label>
+		<div id="title">Website (Optional)</div>
+		<input type="text" name="site" value="{{site}}">
+	</label>
+
+		<label>
+		<div id="title">Education or special training (Optional)</div>
+		<input id='ed' type="text" name="training" value="{{training}}">
+	</label>
+	<label>
+		<div id="title">
+				To receive a license as a Priestess in the state of California and be a recognized member of the Belladonna's American Priestess Circle, you have agreed to our philosophy of self-initiation (meaning each priestess recognizes she is guided on an independent spiritual path aligned with her OWN voice, truth and with her self-defined relationship with God/dess), 
+				<br><br>
+				and
+				<br><br>
+				remain in good standing with Belladonna Sanctuary (meaning you are aligned with the Belladonna Sanctuary's collective agreement and covenant to spiritually support our sisterhood with the spiritual intentions of mutual neutrality, acceptance and peace — the agreement to hold the space, the intentional frequency — for each priestess to have her individual, self-determined truth, spiritual freedom, path and practice.
+
+
+</form>
+		</div>
+	
+
+	
+<br><br>
+
+			<div id="pay">Your application has been submitted. Please click the PayPal link below to complete your purchase. </div>
+
+
+<form style="margin-left: 175px; margin-top:7px;"action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="SUCDSM7HQN8AN">
+<input type="hidden" name="custom" value="{{ ppid }}">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+	</form>
+
+</div>
+</div>
+
+{% endblock %}
